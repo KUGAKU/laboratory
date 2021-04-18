@@ -11,7 +11,59 @@
 		64BA7BC1262BC18100802F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BC0262BC18100802F77 /* ContentView.swift */; };
 		64BA7BC3262BC18200802F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BC2262BC18200802F77 /* Assets.xcassets */; };
 		64BA7BC6262BC18200802F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BC5262BC18200802F77 /* Preview Assets.xcassets */; };
+		64BA7BD4262BD57400802F77 /* laboratoryWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 64BA7BD3262BD57400802F77 /* laboratoryWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64BA7BD9262BD57700802F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BD8262BD57700802F77 /* Assets.xcassets */; };
+		64BA7BE0262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64BA7BDF262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64BA7BE5262BD57700802F77 /* laboratoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BE4262BD57700802F77 /* laboratoryApp.swift */; };
+		64BA7BE7262BD57700802F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BE6262BD57700802F77 /* ContentView.swift */; };
+		64BA7BE9262BD57700802F77 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BE8262BD57700802F77 /* NotificationController.swift */; };
+		64BA7BEB262BD57700802F77 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BEA262BD57700802F77 /* NotificationView.swift */; };
+		64BA7BED262BD57700802F77 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BEC262BD57700802F77 /* ComplicationController.swift */; };
+		64BA7BEF262BD57800802F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BEE262BD57800802F77 /* Assets.xcassets */; };
+		64BA7BF2262BD57800802F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BF1262BD57800802F77 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BA7BD5262BD57400802F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BA7BB3262BC18100802F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BA7BD2262BD57400802F77;
+			remoteInfo = "laboratoryWatch WatchKit App";
+		};
+		64BA7BE1262BD57700802F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BA7BB3262BC18100802F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BA7BDE262BD57700802F77;
+			remoteInfo = "laboratoryWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64BA7BF8262BD57800802F77 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64BA7BE0262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA7BFC262BD57800802F77 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				64BA7BD4262BD57400802F77 /* laboratoryWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		64BA7BBB262BC18100802F77 /* laboratory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laboratory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +72,31 @@
 		64BA7BC2262BC18200802F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64BA7BC5262BC18200802F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64BA7BC7262BC18200802F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA7BD0262BD57300802F77 /* laboratoryWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laboratoryWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA7BD3262BD57400802F77 /* laboratoryWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laboratoryWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA7BD8262BD57700802F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BA7BDA262BD57700802F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA7BDF262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "laboratoryWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BA7BE4262BD57700802F77 /* laboratoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laboratoryApp.swift; sourceTree = "<group>"; };
+		64BA7BE6262BD57700802F77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64BA7BE8262BD57700802F77 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		64BA7BEA262BD57700802F77 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		64BA7BEC262BD57700802F77 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		64BA7BEE262BD57800802F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BA7BF1262BD57800802F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64BA7BF3262BD57800802F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BA7BF4262BD57800802F77 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		64BA7BB8262BC18100802F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA7BDC262BD57700802F77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				64BA7BBD262BC18100802F77 /* laboratory */,
+				64BA7BD7262BD57400802F77 /* laboratoryWatch WatchKit App */,
+				64BA7BE3262BD57700802F77 /* laboratoryWatch WatchKit Extension */,
 				64BA7BBC262BC18100802F77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				64BA7BBB262BC18100802F77 /* laboratory.app */,
+				64BA7BD0262BD57300802F77 /* laboratoryWatch.app */,
+				64BA7BD3262BD57400802F77 /* laboratoryWatch WatchKit App.app */,
+				64BA7BDF262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +147,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64BA7BD7262BD57400802F77 /* laboratoryWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				64BA7BD8262BD57700802F77 /* Assets.xcassets */,
+				64BA7BDA262BD57700802F77 /* Info.plist */,
+			);
+			path = "laboratoryWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		64BA7BE3262BD57700802F77 /* laboratoryWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				64BA7BE4262BD57700802F77 /* laboratoryApp.swift */,
+				64BA7BE6262BD57700802F77 /* ContentView.swift */,
+				64BA7BE8262BD57700802F77 /* NotificationController.swift */,
+				64BA7BEA262BD57700802F77 /* NotificationView.swift */,
+				64BA7BEC262BD57700802F77 /* ComplicationController.swift */,
+				64BA7BEE262BD57800802F77 /* Assets.xcassets */,
+				64BA7BF3262BD57800802F77 /* Info.plist */,
+				64BA7BF4262BD57800802F77 /* PushNotificationPayload.apns */,
+				64BA7BF0262BD57800802F77 /* Preview Content */,
+			);
+			path = "laboratoryWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		64BA7BF0262BD57800802F77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64BA7BF1262BD57800802F77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +200,57 @@
 			productReference = 64BA7BBB262BC18100802F77 /* laboratory.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64BA7BCF262BD57300802F77 /* laboratoryWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA7BFD262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch" */;
+			buildPhases = (
+				64BA7BCE262BD57300802F77 /* Resources */,
+				64BA7BFC262BD57800802F77 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BA7BD6262BD57400802F77 /* PBXTargetDependency */,
+			);
+			name = laboratoryWatch;
+			productName = laboratoryWatch;
+			productReference = 64BA7BD0262BD57300802F77 /* laboratoryWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		64BA7BD2262BD57400802F77 /* laboratoryWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA7BF9262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch WatchKit App" */;
+			buildPhases = (
+				64BA7BD1262BD57400802F77 /* Resources */,
+				64BA7BF8262BD57800802F77 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BA7BE2262BD57700802F77 /* PBXTargetDependency */,
+			);
+			name = "laboratoryWatch WatchKit App";
+			productName = "laboratoryWatch WatchKit App";
+			productReference = 64BA7BD3262BD57400802F77 /* laboratoryWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		64BA7BDE262BD57700802F77 /* laboratoryWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BA7BF5262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch WatchKit Extension" */;
+			buildPhases = (
+				64BA7BDB262BD57700802F77 /* Sources */,
+				64BA7BDC262BD57700802F77 /* Frameworks */,
+				64BA7BDD262BD57700802F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "laboratoryWatch WatchKit Extension";
+			productName = "laboratoryWatch WatchKit Extension";
+			productReference = 64BA7BDF262BD57700802F77 /* laboratoryWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +261,15 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					64BA7BBA262BC18100802F77 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					64BA7BCF262BD57300802F77 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					64BA7BD2262BD57400802F77 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					64BA7BDE262BD57700802F77 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -117,6 +288,9 @@
 			projectRoot = "";
 			targets = (
 				64BA7BBA262BC18100802F77 /* laboratory */,
+				64BA7BCF262BD57300802F77 /* laboratoryWatch */,
+				64BA7BD2262BD57400802F77 /* laboratoryWatch WatchKit App */,
+				64BA7BDE262BD57700802F77 /* laboratoryWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +302,30 @@
 			files = (
 				64BA7BC6262BC18200802F77 /* Preview Assets.xcassets in Resources */,
 				64BA7BC3262BC18200802F77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA7BCE262BD57300802F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA7BD1262BD57400802F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA7BD9262BD57700802F77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA7BDD262BD57700802F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA7BF2262BD57800802F77 /* Preview Assets.xcassets in Resources */,
+				64BA7BEF262BD57800802F77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +341,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64BA7BDB262BD57700802F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BA7BE9262BD57700802F77 /* NotificationController.swift in Sources */,
+				64BA7BE7262BD57700802F77 /* ContentView.swift in Sources */,
+				64BA7BED262BD57700802F77 /* ComplicationController.swift in Sources */,
+				64BA7BE5262BD57700802F77 /* laboratoryApp.swift in Sources */,
+				64BA7BEB262BD57700802F77 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BA7BD6262BD57400802F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BA7BD2262BD57400802F77 /* laboratoryWatch WatchKit App */;
+			targetProxy = 64BA7BD5262BD57400802F77 /* PBXContainerItemProxy */;
+		};
+		64BA7BE2262BD57700802F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BA7BDE262BD57700802F77 /* laboratoryWatch WatchKit Extension */;
+			targetProxy = 64BA7BE1262BD57700802F77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		64BA7BC8262BC18200802F77 /* Debug */ = {
@@ -306,6 +529,124 @@
 			};
 			name = Release;
 		};
+		64BA7BF6262BD57800802F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"laboratoryWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "laboratoryWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		64BA7BF7262BD57800802F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"laboratoryWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "laboratoryWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		64BA7BFA262BD57800802F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				IBSC_MODULE = laboratoryWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "laboratoryWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		64BA7BFB262BD57800802F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				IBSC_MODULE = laboratoryWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "laboratoryWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		64BA7BFE262BD57800802F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64BA7BFF262BD57800802F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45PU63P9V7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.gaku.laboratoryWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +664,33 @@
 			buildConfigurations = (
 				64BA7BCB262BC18200802F77 /* Debug */,
 				64BA7BCC262BC18200802F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BA7BF5262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA7BF6262BD57800802F77 /* Debug */,
+				64BA7BF7262BD57800802F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BA7BF9262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA7BFA262BD57800802F77 /* Debug */,
+				64BA7BFB262BD57800802F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BA7BFD262BD57800802F77 /* Build configuration list for PBXNativeTarget "laboratoryWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BA7BFE262BD57800802F77 /* Debug */,
+				64BA7BFF262BD57800802F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
