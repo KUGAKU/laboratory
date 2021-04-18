@@ -11,7 +11,8 @@ import SwiftUI
 struct laboratoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            CircleImageView()
         }
     }
 }

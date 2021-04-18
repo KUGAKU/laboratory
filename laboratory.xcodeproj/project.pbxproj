@@ -21,6 +21,9 @@
 		64BA7BED262BD57700802F77 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7BEC262BD57700802F77 /* ComplicationController.swift */; };
 		64BA7BEF262BD57800802F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BEE262BD57800802F77 /* Assets.xcassets */; };
 		64BA7BF2262BD57800802F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BA7BF1262BD57800802F77 /* Preview Assets.xcassets */; };
+		64BA7C1B262BE91400802F77 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C1A262BE91400802F77 /* TimerModel.swift */; };
+		64BA7C21262BEA9700802F77 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C20262BEA9700802F77 /* TimerViewModel.swift */; };
+		64BA7C3F262BF8E900802F77 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C3E262BF8E900802F77 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +89,9 @@
 		64BA7BF1262BD57800802F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64BA7BF3262BD57800802F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64BA7BF4262BD57800802F77 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		64BA7C1A262BE91400802F77 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		64BA7C20262BEA9700802F77 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		64BA7C3E262BF8E900802F77 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 				64BA7BC2262BC18200802F77 /* Assets.xcassets */,
 				64BA7BC7262BC18200802F77 /* Info.plist */,
 				64BA7BC4262BC18200802F77 /* Preview Content */,
+				64BA7C3E262BF8E900802F77 /* CircleImageView.swift */,
 			);
 			path = laboratory;
 			sourceTree = "<group>";
@@ -167,7 +174,9 @@
 				64BA7BEE262BD57800802F77 /* Assets.xcassets */,
 				64BA7BF3262BD57800802F77 /* Info.plist */,
 				64BA7BF4262BD57800802F77 /* PushNotificationPayload.apns */,
+				64BA7C1A262BE91400802F77 /* TimerModel.swift */,
 				64BA7BF0262BD57800802F77 /* Preview Content */,
+				64BA7C20262BEA9700802F77 /* TimerViewModel.swift */,
 			);
 			path = "laboratoryWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -338,6 +347,7 @@
 			files = (
 				64BA7BC1262BC18100802F77 /* ContentView.swift in Sources */,
 				64BA7BBF262BC18100802F77 /* laboratoryApp.swift in Sources */,
+				64BA7C3F262BF8E900802F77 /* CircleImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +355,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BA7C21262BEA9700802F77 /* TimerViewModel.swift in Sources */,
 				64BA7BE9262BD57700802F77 /* NotificationController.swift in Sources */,
 				64BA7BE7262BD57700802F77 /* ContentView.swift in Sources */,
 				64BA7BED262BD57700802F77 /* ComplicationController.swift in Sources */,
+				64BA7C1B262BE91400802F77 /* TimerModel.swift in Sources */,
 				64BA7BE5262BD57700802F77 /* laboratoryApp.swift in Sources */,
 				64BA7BEB262BD57700802F77 /* NotificationView.swift in Sources */,
 			);
