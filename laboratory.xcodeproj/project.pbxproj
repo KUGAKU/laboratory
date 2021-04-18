@@ -24,6 +24,7 @@
 		64BA7C1B262BE91400802F77 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C1A262BE91400802F77 /* TimerModel.swift */; };
 		64BA7C21262BEA9700802F77 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C20262BEA9700802F77 /* TimerViewModel.swift */; };
 		64BA7C3F262BF8E900802F77 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C3E262BF8E900802F77 /* CircleImageView.swift */; };
+		64BA7C49262BFDCC00802F77 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA7C48262BFDCC00802F77 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		64BA7C1A262BE91400802F77 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		64BA7C20262BEA9700802F77 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		64BA7C3E262BF8E900802F77 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		64BA7C48262BFDCC00802F77 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				64BA7BC7262BC18200802F77 /* Info.plist */,
 				64BA7BC4262BC18200802F77 /* Preview Content */,
 				64BA7C3E262BF8E900802F77 /* CircleImageView.swift */,
+				64BA7C48262BFDCC00802F77 /* MapView.swift */,
 			);
 			path = laboratory;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BA7BC1262BC18100802F77 /* ContentView.swift in Sources */,
+				64BA7C49262BFDCC00802F77 /* MapView.swift in Sources */,
 				64BA7BBF262BC18100802F77 /* laboratoryApp.swift in Sources */,
 				64BA7C3F262BF8E900802F77 /* CircleImageView.swift in Sources */,
 			);
