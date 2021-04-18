@@ -1,2 +1,2 @@
 # laboratory
-## SwiftUIの実験
+SwiftUI Laboratory
