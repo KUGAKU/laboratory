@@ -9,18 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack() {
+            MapView()
+                .frame(height: 300)
+            
+            CircleImageView()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
             Text("SwiftUI laboratory")
-                .font(.title)
+              
             HStack {
                 Text("I want to be a iOS developper")
-                    .font(.subheadline)
                 Spacer()
                 Text("iot AR VR")
-                    .font(.subheadline)
             }
+            .font(.subheadline)
+            .foregroundColor(.secondary)
+            
+            Divider()
+            
+            Text("About me")
+                .font(.title2)
+            Text("I am 23 years old")
         }
         .padding()
+        
+        Spacer()
     }
 }
 
